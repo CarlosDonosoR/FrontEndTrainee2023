@@ -1,0 +1,32 @@
+#lista{
+    margin: 0 auto;
+}
+
+#seccion{
+    margin-top: 6.25rem;
+    margin-bottom: 1.875rem;
+    background-color:white;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+#tarjeta{
+    display: none;
+    width: 33%;
+    text-align: center;
+    margin: 6.25rem auto;
+}
+
+body{
+    background-image: url(../img/fondo.png);
+}
+
+#oculto{ /*inicio de la lista que comienza oculta, luego cambia*/
+    display: none;
+}
+
+.info{
+    padding: 0.8rem; 
+    font-weight: bold;
+}
